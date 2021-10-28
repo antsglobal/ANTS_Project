@@ -40,7 +40,7 @@ public class base {
 		String rep_name = "MyExtendReports_" + time_stamp + ".html";
 		htmlReports = new ExtentHtmlReporter(
 				//System.getProperty("user.dir") + "/TestResults/TestReports/" + "MyExtendReports.html");
-				System.getProperty("user.dir") + "\\Report\\" + "Extent.html");
+				System.getProperty("user.dir") + "\\Report\\" + "Asset_reports.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReports);
 
