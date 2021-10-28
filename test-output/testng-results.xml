@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="20" total="31" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10643" started-at="2021-10-14T11:33:29 IST" finished-at="2021-10-14T11:33:39 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10643" started-at="2021-10-14T11:33:29 IST" finished-at="2021-10-14T11:33:39 IST">
+      <class name="Asset_tracker_post.get_003_getlocations">
+        <test-method status="PASS" signature="assetLocation(java.util.Map)[pri:0, instance:Asset_tracker_post.get_003_getlocations@10163d6]" name="assetLocation" duration-ms="396" started-at="2021-10-14T11:33:34 IST" data-provider="g_getlocations" finished-at="2021-10-14T11:33:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{rFIDReaderCode=AN-Test101, chAntenna=112, locationId=38, subch=101, locationDescription=api_test_room}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assetLocation -->
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_003_getlocations@10163d6]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-14T11:33:34 IST" finished-at="2021-10-14T11:33:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.get_003_getlocations.assetLocation(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_003_getlocations@10163d6]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:35 IST" finished-at="2021-10-14T11:33:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assetLocation status=SUCCESS method=get_003_getlocations.assetLocation(java.util.Map)[pri:0, instance:Asset_tracker_post.get_003_getlocations@10163d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.get_003_getlocations -->
+      <class name="Asset_tracker_post.post_004_assettracking">
+        <test-method status="PASS" signature="asset_tracking(java.util.Map)[pri:0, instance:Asset_tracker_post.post_004_assettracking@6a84a97d]" name="asset_tracking" duration-ms="408" started-at="2021-10-14T11:33:38 IST" data-provider="assettracking" finished-at="2021-10-14T11:33:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{sensor_ID=11, assetCode=astcode_106, time_stamp=2021-09-14 11:14:00, latitude=1.1838, cH_Antenna=101, rFIDReaderCode=AN-Test101, subch=101, longitude=1.1185}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asset_tracking -->
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_004_assettracking@6a84a97d]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-14T11:33:38 IST" finished-at="2021-10-14T11:33:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.post_004_assettracking.asset_tracking(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_004_assettracking@6a84a97d]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:38 IST" finished-at="2021-10-14T11:33:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=asset_tracking status=SUCCESS method=post_004_assettracking.asset_tracking(java.util.Map)[pri:0, instance:Asset_tracker_post.post_004_assettracking@6a84a97d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.post_004_assettracking -->
+      <class name="Asset_tracker_post.post_002_AssetAdd">
+        <test-method status="PASS" signature="assetAdd(java.util.Map)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@5f9b2141]" name="assetAdd" duration-ms="415" started-at="2021-10-14T11:33:37 IST" data-provider="assetadding" finished-at="2021-10-14T11:33:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{assetCode=astcode_123, assetDescription=test_asset_code_desc, locationId=44, status=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assetAdd -->
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@5f9b2141]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-14T11:33:37 IST" finished-at="2021-10-14T11:33:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.post_002_AssetAdd.assetAdd(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@5f9b2141]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:37 IST" finished-at="2021-10-14T11:33:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assetAdd status=SUCCESS method=post_002_AssetAdd.assetAdd(java.util.Map)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@5f9b2141] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.post_002_AssetAdd -->
+      <class name="Asset_tracker_post.post_007_durationofthetrip">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@50ad3bc1]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-14T11:33:38 IST" finished-at="2021-10-14T11:33:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.post_007_durationofthetrip.dumperdetailscount(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="dumperdetailscount(java.util.Map)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@50ad3bc1]" name="dumperdetailscount" duration-ms="442" started-at="2021-10-14T11:33:38 IST" data-provider="p_durationofthetrip" finished-at="2021-10-14T11:33:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fromDate=2020-10-04, date=null, dumperId=null, loadStartTime=null, timeDiff=null, loadDeviceValue=null, toDate=2021-10-04, unloadDeviceValue=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dumperdetailscount -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@50ad3bc1]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:39 IST" finished-at="2021-10-14T11:33:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dumperdetailscount status=SUCCESS method=post_007_durationofthetrip.dumperdetailscount(java.util.Map)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@50ad3bc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.post_007_durationofthetrip -->
+      <class name="Asset_tracker_post.get_005_get_assettrackingforui">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@15bbf42f]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:35 IST" finished-at="2021-10-14T11:33:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.get_005_get_assettrackingforui.assettrackingforui(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="assettrackingforui(java.util.Map)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@15bbf42f]" name="assettrackingforui" duration-ms="488" started-at="2021-10-14T11:33:35 IST" data-provider="g_assettrackingforui" finished-at="2021-10-14T11:33:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{room_Id=44, asset_Description=test_asset_code_desc, room=api_test_room, asset_Code=astcode_112}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assettrackingforui -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@15bbf42f]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:36 IST" finished-at="2021-10-14T11:33:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assettrackingforui status=SUCCESS method=get_005_get_assettrackingforui.assettrackingforui(java.util.Map)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@15bbf42f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.get_005_get_assettrackingforui -->
+      <class name="Asset_tracker_post.get_001_Dumper_details">
+        <test-method status="PASS" signature="report()[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@a2431d0]" name="report" is-config="true" duration-ms="133" started-at="2021-10-14T11:33:29 IST" finished-at="2021-10-14T11:33:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@a2431d0]" name="disp" is-config="true" duration-ms="4" started-at="2021-10-14T11:33:30 IST" finished-at="2021-10-14T11:33:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.get_001_Dumper_details.allDumperIds(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="allDumperIds(java.util.Map)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@a2431d0]" name="allDumperIds" duration-ms="4110" started-at="2021-10-14T11:33:30 IST" data-provider="g_alldumperids" finished-at="2021-10-14T11:33:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{deviceCategory=Dumper, deviceId=10009, deviceMappingID=D9}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allDumperIds -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@a2431d0]" name="setTestResult" is-config="true" duration-ms="5" started-at="2021-10-14T11:33:34 IST" finished-at="2021-10-14T11:33:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allDumperIds status=SUCCESS method=get_001_Dumper_details.allDumperIds(java.util.Map)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@a2431d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="fulshReport()[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@a2431d0]" name="fulshReport" is-config="true" duration-ms="524" started-at="2021-10-14T11:33:39 IST" finished-at="2021-10-14T11:33:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fulshReport -->
+      </class> <!-- Asset_tracker_post.get_001_Dumper_details -->
+      <class name="Asset_tracker_post.get_002_assetlocationsview">
+        <test-method status="PASS" signature="assetLocationView(java.util.Map)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@49912c99]" name="assetLocationView" duration-ms="506" started-at="2021-10-14T11:33:34 IST" data-provider="g_assetlocationsview" finished-at="2021-10-14T11:33:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{rFIDReaderCode=AN-Test101, chAntenna=118, locationId=44, subch=101, locationDescription=api_test_room}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assetLocationView -->
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@49912c99]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-14T11:33:34 IST" finished-at="2021-10-14T11:33:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.get_002_assetlocationsview.assetLocationView(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@49912c99]" name="setTestResult" is-config="true" duration-ms="3" started-at="2021-10-14T11:33:34 IST" finished-at="2021-10-14T11:33:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assetLocationView status=SUCCESS method=get_002_assetlocationsview.assetLocationView(java.util.Map)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@49912c99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.get_002_assetlocationsview -->
+      <class name="Asset_tracker_post.post_001_assetlocationsadding">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@550ee7e5]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-14T11:33:36 IST" finished-at="2021-10-14T11:33:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.post_001_assetlocationsadding.assetLocationsAdding(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="assetLocationsAdding(java.util.Map)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@550ee7e5]" name="assetLocationsAdding" duration-ms="421" started-at="2021-10-14T11:33:36 IST" data-provider="assetlocationsadding" finished-at="2021-10-14T11:33:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{rFIDReaderCode=AN-Test101, chAntenna=131, subch=101, locationDescription=api_test_room}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assetLocationsAdding -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@550ee7e5]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:36 IST" finished-at="2021-10-14T11:33:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assetLocationsAdding status=SUCCESS method=post_001_assetlocationsadding.assetLocationsAdding(java.util.Map)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@550ee7e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.post_001_assetlocationsadding -->
+      <class name="Asset_tracker_post.post_006_dumperdetailscount">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@6c130c45]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:38 IST" finished-at="2021-10-14T11:33:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.post_006_dumperdetailscount.dumperdetailscount(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="dumperdetailscount(java.util.Map)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@6c130c45]" name="dumperdetailscount" duration-ms="402" started-at="2021-10-14T11:33:38 IST" data-provider="p_dumperdetailscount" finished-at="2021-10-14T11:33:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fromDate=2020-10-04, date=null, dumperId=null, loadDeviceValue=null, toDate=2021-10-04, unloadDeviceValue=null, status=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dumperdetailscount -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@6c130c45]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:38 IST" finished-at="2021-10-14T11:33:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dumperdetailscount status=SUCCESS method=post_006_dumperdetailscount.dumperdetailscount(java.util.Map)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@6c130c45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.post_006_dumperdetailscount -->
+      <class name="Asset_tracker_post.post_003_getassets">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_003_getassets@48974e45]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-14T11:33:37 IST" finished-at="2021-10-14T11:33:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.post_003_getassets.getAssets(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="getAssets(java.util.Map)[pri:0, instance:Asset_tracker_post.post_003_getassets@48974e45]" name="getAssets" duration-ms="456" started-at="2021-10-14T11:33:37 IST" data-provider="getassets" finished-at="2021-10-14T11:33:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{asset_code=astcode_106, location_id=17}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAssets -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_003_getassets@48974e45]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-14T11:33:37 IST" finished-at="2021-10-14T11:33:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAssets status=SUCCESS method=post_003_getassets.getAssets(java.util.Map)[pri:0, instance:Asset_tracker_post.post_003_getassets@48974e45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.post_003_getassets -->
+      <class name="Asset_tracker_post.get_004_get_Assetview">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@2dde1bff]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-14T11:33:35 IST" finished-at="2021-10-14T11:33:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.get_004_get_Assetview.assetview(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="assetview(java.util.Map)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@2dde1bff]" name="assetview" duration-ms="470" started-at="2021-10-14T11:33:35 IST" data-provider="g_assetview" finished-at="2021-10-14T11:33:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{assetCode=astcode_119, id=147, assetDescription=test_asset_code_desc, locationId=44, status=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assetview -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@2dde1bff]" name="setTestResult" is-config="true" duration-ms="2" started-at="2021-10-14T11:33:35 IST" finished-at="2021-10-14T11:33:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assetview status=SUCCESS method=get_004_get_Assetview.assetview(java.util.Map)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@2dde1bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+      </class> <!-- Asset_tracker_post.get_004_get_Assetview -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

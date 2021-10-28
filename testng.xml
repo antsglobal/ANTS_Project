@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Asset_tracker_post.get_001_Dumper_details"/>
+      <class name="Asset_tracker_post.get_002_assetlocationsview"/>
+      <class name="Asset_tracker_post.get_003_getlocations"/>
+      <class name="Asset_tracker_post.get_004_get_Assetview"/>
+      <class name="Asset_tracker_post.get_005_get_assettrackingforui"/>
+          
+      <class name="Asset_tracker_post.post_001_assetlocationsadding"/>
+      <class name="Asset_tracker_post.post_002_AssetAdd"/>
+      <class name="Asset_tracker_post.post_003_getassets"/>
+      <class name="Asset_tracker_post.post_004_assettracking"/>
+      <class name="Asset_tracker_post.post_006_dumperdetailscount"/>
+      <class name="Asset_tracker_post.post_007_durationofthetrip"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

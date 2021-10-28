@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 14 11:33:29 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10643 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Asset_tracker_post.get_002_assetlocationsview.assetLocationView()'><b>assetLocationView</b><br>Test class: Asset_tracker_post.get_002_assetlocationsview<br>Parameters: {rFIDReaderCode=AN-Test101, chAntenna=118, locationId=44, subch=101, locationDescription=api_test_room}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.get_002_assetlocationsview@49912c99</td></tr>
+<tr>
+<td title='Asset_tracker_post.post_002_AssetAdd.assetAdd()'><b>assetAdd</b><br>Test class: Asset_tracker_post.post_002_AssetAdd<br>Parameters: {assetCode=astcode_123, assetDescription=test_asset_code_desc, locationId=44, status=1}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.post_002_AssetAdd@5f9b2141</td></tr>
+<tr>
+<td title='Asset_tracker_post.post_006_dumperdetailscount.dumperdetailscount()'><b>dumperdetailscount</b><br>Test class: Asset_tracker_post.post_006_dumperdetailscount<br>Parameters: {fromDate=2020-10-04, date=null, dumperId=null, loadDeviceValue=null, toDate=2021-10-04, unloadDeviceValue=null, status=null}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.post_006_dumperdetailscount@6c130c45</td></tr>
+<tr>
+<td title='Asset_tracker_post.post_004_assettracking.asset_tracking()'><b>asset_tracking</b><br>Test class: Asset_tracker_post.post_004_assettracking<br>Parameters: {sensor_ID=11, assetCode=astcode_106, time_stamp=2021-09-14 11:14:00, latitude=1.1838, cH_Antenna=101, rFIDReaderCode=AN-Test101, subch=101, longitude=1.1185}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.post_004_assettracking@6a84a97d</td></tr>
+<tr>
+<td title='Asset_tracker_post.get_001_Dumper_details.allDumperIds()'><b>allDumperIds</b><br>Test class: Asset_tracker_post.get_001_Dumper_details<br>Parameters: {deviceCategory=Dumper, deviceId=10009, deviceMappingID=D9}</td>
+<td></td>
+<td>4</td>
+<td>Asset_tracker_post.get_001_Dumper_details@a2431d0</td></tr>
+<tr>
+<td title='Asset_tracker_post.post_001_assetlocationsadding.assetLocationsAdding()'><b>assetLocationsAdding</b><br>Test class: Asset_tracker_post.post_001_assetlocationsadding<br>Parameters: {rFIDReaderCode=AN-Test101, chAntenna=131, subch=101, locationDescription=api_test_room}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.post_001_assetlocationsadding@550ee7e5</td></tr>
+<tr>
+<td title='Asset_tracker_post.get_003_getlocations.assetLocation()'><b>assetLocation</b><br>Test class: Asset_tracker_post.get_003_getlocations<br>Parameters: {rFIDReaderCode=AN-Test101, chAntenna=112, locationId=38, subch=101, locationDescription=api_test_room}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.get_003_getlocations@10163d6</td></tr>
+<tr>
+<td title='Asset_tracker_post.post_007_durationofthetrip.dumperdetailscount()'><b>dumperdetailscount</b><br>Test class: Asset_tracker_post.post_007_durationofthetrip<br>Parameters: {fromDate=2020-10-04, date=null, dumperId=null, loadStartTime=null, timeDiff=null, loadDeviceValue=null, toDate=2021-10-04, unloadDeviceValue=null}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.post_007_durationofthetrip@50ad3bc1</td></tr>
+<tr>
+<td title='Asset_tracker_post.get_005_get_assettrackingforui.assettrackingforui()'><b>assettrackingforui</b><br>Test class: Asset_tracker_post.get_005_get_assettrackingforui<br>Parameters: {room_Id=44, asset_Description=test_asset_code_desc, room=api_test_room, asset_Code=astcode_112}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.get_005_get_assettrackingforui@15bbf42f</td></tr>
+<tr>
+<td title='Asset_tracker_post.get_004_get_Assetview.assetview()'><b>assetview</b><br>Test class: Asset_tracker_post.get_004_get_Assetview<br>Parameters: {assetCode=astcode_119, id=147, assetDescription=test_asset_code_desc, locationId=44, status=1}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.get_004_get_Assetview@2dde1bff</td></tr>
+<tr>
+<td title='Asset_tracker_post.post_003_getassets.getAssets()'><b>getAssets</b><br>Test class: Asset_tracker_post.post_003_getassets<br>Parameters: {asset_code=astcode_106, location_id=17}</td>
+<td></td>
+<td>0</td>
+<td>Asset_tracker_post.post_003_getassets@48974e45</td></tr>
+</table><p>
+</body>
+</html>
