@@ -1,0 +1,32 @@
+2021-10-29 19:13:54.313 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  ================================================= 
+2021-10-29 19:13:54.319 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Asset Tracking : alldumperids api test starts
+2021-10-29 19:13:54.319 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Search with device ID 10009
+2021-10-29 19:13:58.284 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Successful response code received 
+2021-10-29 19:13:58.366 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device ID matched successfully
+2021-10-29 19:13:58.463 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device Category is matched with response
+2021-10-29 19:13:58.465 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device MappingID is matched with response
+2021-10-29 19:13:58.465 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Test case passed 
+2021-10-29 19:14:20.153 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  ================================================= 
+2021-10-29 19:14:20.159 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Asset Tracking : alldumperids api test starts
+2021-10-29 19:14:20.159 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Search with device ID 10009
+2021-10-29 19:14:24.042 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Successful response code received 
+2021-10-29 19:14:24.108 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device ID matched successfully
+2021-10-29 19:14:24.206 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device Category is matched with response
+2021-10-29 19:14:24.207 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device MappingID is matched with response
+2021-10-29 19:14:24.208 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Test case passed 
+2021-10-29 19:16:13.175 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  ================================================= 
+2021-10-29 19:16:13.183 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Asset Tracking : alldumperids api test starts
+2021-10-29 19:16:13.183 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Search with device ID 10009
+2021-10-29 19:16:20.197 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Successful response code received 
+2021-10-29 19:16:20.310 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device ID matched successfully
+2021-10-29 19:16:20.419 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device Category is matched with response
+2021-10-29 19:16:20.422 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device MappingID is matched with response
+2021-10-29 19:16:20.422 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Test case passed 
+2021-10-29 19:26:37.283 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  ================================================= 
+2021-10-29 19:26:37.288 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Asset Tracking : alldumperids api test starts
+2021-10-29 19:26:37.288 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Search with device ID 10009
+2021-10-29 19:26:41.925 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Successful response code received 
+2021-10-29 19:26:41.987 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device ID matched successfully
+2021-10-29 19:26:42.067 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device Category is matched with response
+2021-10-29 19:26:42.068 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Device MappingID is matched with response
+2021-10-29 19:26:42.069 [main] INFO  Asset_tracker_post.get_001_Dumper_details -  Test case passed 
