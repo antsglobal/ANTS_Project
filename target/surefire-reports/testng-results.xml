@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="20" total="31" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16621" started-at="2021-10-29T21:51:06 IST" finished-at="2021-10-29T21:51:23 IST">
+  <suite name="Suite" duration-ms="8966" started-at="2021-10-29T22:31:47 IST" finished-at="2021-10-29T22:31:56 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16621" started-at="2021-10-29T21:51:06 IST" finished-at="2021-10-29T21:51:23 IST">
+    <test name="Test" duration-ms="8966" started-at="2021-10-29T22:31:47 IST" finished-at="2021-10-29T22:31:56 IST">
       <class name="Asset_tracker_post.get_003_getlocations">
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_003_getlocations@157853da]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:19 IST" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_003_getlocations@157853da]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:53 IST" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="assetLocation(java.util.Map)[pri:0, instance:Asset_tracker_post.get_003_getlocations@157853da]" name="assetLocation" duration-ms="97" started-at="2021-10-29T21:51:19 IST" data-provider="g_getlocations" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="assetLocation(java.util.Map)[pri:0, instance:Asset_tracker_post.get_003_getlocations@157853da]" name="assetLocation" duration-ms="102" started-at="2021-10-29T22:31:53 IST" data-provider="g_getlocations" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assetLocation -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_003_getlocations@157853da]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:19 IST" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_003_getlocations@157853da]" name="setTestResult" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:53 IST" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.get_003_getlocations -->
       <class name="Asset_tracker_post.post_002_AssetAdd">
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@6bf0219d]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:20 IST" finished-at="2021-10-29T21:51:20 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@6bf0219d]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:54 IST" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="FAIL" signature="assetAdd(java.util.Map)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@6bf0219d]" name="assetAdd" duration-ms="100" started-at="2021-10-29T21:51:20 IST" data-provider="assetadding" finished-at="2021-10-29T21:51:20 IST">
+        <test-method status="FAIL" signature="assetAdd(java.util.Map)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@6bf0219d]" name="assetAdd" duration-ms="125" started-at="2021-10-29T22:31:54 IST" data-provider="assetadding" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assetAdd -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@6bf0219d]" name="setTestResult" is-config="true" duration-ms="8" started-at="2021-10-29T21:51:20 IST" finished-at="2021-10-29T21:51:20 IST">
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_002_AssetAdd@6bf0219d]" name="setTestResult" is-config="true" duration-ms="5" started-at="2021-10-29T22:31:54 IST" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -123,18 +123,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.post_002_AssetAdd -->
       <class name="Asset_tracker_post.post_004_assettracking">
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_004_assettracking@69fb6037]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:20 IST" finished-at="2021-10-29T21:51:20 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Asset_tracker_post.post_004_assettracking.asset_tracking(java.util.Map)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disp -->
-        <test-method status="PASS" signature="asset_tracking(java.util.Map)[pri:0, instance:Asset_tracker_post.post_004_assettracking@69fb6037]" name="asset_tracking" duration-ms="1108" started-at="2021-10-29T21:51:20 IST" data-provider="assettracking" finished-at="2021-10-29T21:51:21 IST">
+        <test-method status="PASS" signature="asset_tracking(java.util.Map)[pri:0, instance:Asset_tracker_post.post_004_assettracking@69fb6037]" name="asset_tracking" duration-ms="138" started-at="2021-10-29T22:31:55 IST" data-provider="assettracking" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
@@ -145,7 +134,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asset_tracking -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_004_assettracking@69fb6037]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:21 IST" finished-at="2021-10-29T21:51:21 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_004_assettracking@69fb6037]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:55 IST" finished-at="2021-10-29T22:31:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Asset_tracker_post.post_004_assettracking.asset_tracking(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_004_assettracking@69fb6037]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:55 IST" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
@@ -158,18 +158,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.post_004_assettracking -->
       <class name="Asset_tracker_post.get_005_get_assettrackingforui">
-        <test-method status="PASS" signature="assettrackingforui(java.util.Map)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@236e3f4e]" name="assettrackingforui" duration-ms="297" started-at="2021-10-29T21:51:19 IST" data-provider="g_assettrackingforui" finished-at="2021-10-29T21:51:19 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{room_Id=44, asset_Description=test_asset_code_desc, room=api_test_room, asset_Code=astcode_112}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assettrackingforui -->
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@236e3f4e]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:19 IST" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@236e3f4e]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:54 IST" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -180,7 +169,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@236e3f4e]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:19 IST" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="assettrackingforui(java.util.Map)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@236e3f4e]" name="assettrackingforui" duration-ms="180" started-at="2021-10-29T22:31:54 IST" data-provider="g_assettrackingforui" finished-at="2021-10-29T22:31:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{room_Id=44, asset_Description=test_asset_code_desc, room=api_test_room, asset_Code=astcode_112}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assettrackingforui -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_005_get_assettrackingforui@236e3f4e]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:54 IST" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -193,18 +193,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.get_005_get_assettrackingforui -->
       <class name="Asset_tracker_post.post_007_durationofthetrip">
-        <test-method status="PASS" signature="dumperdetailscount(java.util.Map)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@87a85e1]" name="dumperdetailscount" duration-ms="171" started-at="2021-10-29T21:51:22 IST" data-provider="p_durationofthetrip" finished-at="2021-10-29T21:51:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{fromDate=2020-10-04, date=null, dumperId=null, loadStartTime=null, timeDiff=null, loadDeviceValue=null, toDate=2021-10-04, unloadDeviceValue=null}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dumperdetailscount -->
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@87a85e1]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:22 IST" finished-at="2021-10-29T21:51:22 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@87a85e1]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:55 IST" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
@@ -215,7 +204,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@87a85e1]" name="setTestResult" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:22 IST" finished-at="2021-10-29T21:51:22 IST">
+        <test-method status="PASS" signature="dumperdetailscount(java.util.Map)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@87a85e1]" name="dumperdetailscount" duration-ms="123" started-at="2021-10-29T22:31:55 IST" data-provider="p_durationofthetrip" finished-at="2021-10-29T22:31:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fromDate=2020-10-04, date=null, dumperId=null, loadStartTime=null, timeDiff=null, loadDeviceValue=null, toDate=2021-10-04, unloadDeviceValue=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dumperdetailscount -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_007_durationofthetrip@87a85e1]" name="setTestResult" is-config="true" duration-ms="4" started-at="2021-10-29T22:31:56 IST" finished-at="2021-10-29T22:31:56 IST">
           <params>
             <param index="0">
               <value>
@@ -228,11 +228,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.post_007_durationofthetrip -->
       <class name="Asset_tracker_post.get_001_Dumper_details">
-        <test-method status="PASS" signature="report()[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="report" is-config="true" duration-ms="165" started-at="2021-10-29T21:51:06 IST" finished-at="2021-10-29T21:51:06 IST">
+        <test-method status="PASS" signature="report()[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="report" is-config="true" duration-ms="128" started-at="2021-10-29T22:31:47 IST" finished-at="2021-10-29T22:31:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="disp" is-config="true" duration-ms="8" started-at="2021-10-29T21:51:08 IST" finished-at="2021-10-29T21:51:08 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="disp" is-config="true" duration-ms="4" started-at="2021-10-29T22:31:48 IST" finished-at="2021-10-29T22:31:48 IST">
           <params>
             <param index="0">
               <value>
@@ -243,7 +243,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="allDumperIds(java.util.Map)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="allDumperIds" duration-ms="5815" started-at="2021-10-29T21:51:08 IST" data-provider="g_alldumperids" finished-at="2021-10-29T21:51:13 IST">
+        <test-method status="PASS" signature="allDumperIds(java.util.Map)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="allDumperIds" duration-ms="4578" started-at="2021-10-29T22:31:48 IST" data-provider="g_alldumperids" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -254,7 +254,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allDumperIds -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="setTestResult" is-config="true" duration-ms="4" started-at="2021-10-29T21:51:13 IST" finished-at="2021-10-29T21:51:13 IST">
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="setTestResult" is-config="true" duration-ms="3" started-at="2021-10-29T22:31:53 IST" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -265,13 +265,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestResult -->
-        <test-method status="PASS" signature="fulshReport()[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="fulshReport" is-config="true" duration-ms="665" started-at="2021-10-29T21:51:22 IST" finished-at="2021-10-29T21:51:23 IST">
+        <test-method status="PASS" signature="fulshReport()[pri:0, instance:Asset_tracker_post.get_001_Dumper_details@11c9af63]" name="fulshReport" is-config="true" duration-ms="470" started-at="2021-10-29T22:31:56 IST" finished-at="2021-10-29T22:31:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fulshReport -->
       </class> <!-- Asset_tracker_post.get_001_Dumper_details -->
       <class name="Asset_tracker_post.get_002_assetlocationsview">
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@343570b7]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:13 IST" finished-at="2021-10-29T21:51:13 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@343570b7]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:53 IST" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -282,7 +282,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="assetLocationView(java.util.Map)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@343570b7]" name="assetLocationView" duration-ms="4859" started-at="2021-10-29T21:51:13 IST" data-provider="g_assetlocationsview" finished-at="2021-10-29T21:51:18 IST">
+        <test-method status="PASS" signature="assetLocationView(java.util.Map)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@343570b7]" name="assetLocationView" duration-ms="242" started-at="2021-10-29T22:31:53 IST" data-provider="g_assetlocationsview" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -293,7 +293,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assetLocationView -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@343570b7]" name="setTestResult" is-config="true" duration-ms="2" started-at="2021-10-29T21:51:18 IST" finished-at="2021-10-29T21:51:18 IST">
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_002_assetlocationsview@343570b7]" name="setTestResult" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:53 IST" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -306,7 +306,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.get_002_assetlocationsview -->
       <class name="Asset_tracker_post.post_001_assetlocationsadding">
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@3cc1435c]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:19 IST" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@3cc1435c]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:54 IST" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -317,7 +317,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="assetLocationsAdding(java.util.Map)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@3cc1435c]" name="assetLocationsAdding" duration-ms="188" started-at="2021-10-29T21:51:19 IST" data-provider="assetlocationsadding" finished-at="2021-10-29T21:51:20 IST">
+        <test-method status="PASS" signature="assetLocationsAdding(java.util.Map)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@3cc1435c]" name="assetLocationsAdding" duration-ms="176" started-at="2021-10-29T22:31:54 IST" data-provider="assetlocationsadding" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -328,7 +328,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assetLocationsAdding -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@3cc1435c]" name="setTestResult" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:20 IST" finished-at="2021-10-29T21:51:20 IST">
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_001_assetlocationsadding@3cc1435c]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:54 IST" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -341,7 +341,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.post_001_assetlocationsadding -->
       <class name="Asset_tracker_post.post_006_dumperdetailscount">
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@36d585c]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:22 IST" finished-at="2021-10-29T21:51:22 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@36d585c]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:55 IST" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
@@ -352,7 +352,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="dumperdetailscount(java.util.Map)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@36d585c]" name="dumperdetailscount" duration-ms="171" started-at="2021-10-29T21:51:22 IST" data-provider="p_dumperdetailscount" finished-at="2021-10-29T21:51:22 IST">
+        <test-method status="PASS" signature="dumperdetailscount(java.util.Map)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@36d585c]" name="dumperdetailscount" duration-ms="146" started-at="2021-10-29T22:31:55 IST" data-provider="p_dumperdetailscount" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
@@ -363,7 +363,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dumperdetailscount -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@36d585c]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:22 IST" finished-at="2021-10-29T21:51:22 IST">
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_006_dumperdetailscount@36d585c]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:55 IST" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
@@ -376,7 +376,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.post_006_dumperdetailscount -->
       <class name="Asset_tracker_post.get_004_get_Assetview">
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@71c3b41]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:19 IST" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@71c3b41]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T22:31:53 IST" finished-at="2021-10-29T22:31:53 IST">
           <params>
             <param index="0">
               <value>
@@ -387,7 +387,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="assetview(java.util.Map)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@71c3b41]" name="assetview" duration-ms="284" started-at="2021-10-29T21:51:19 IST" data-provider="g_assetview" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="assetview(java.util.Map)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@71c3b41]" name="assetview" duration-ms="204" started-at="2021-10-29T22:31:53 IST" data-provider="g_assetview" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -398,7 +398,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assetview -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@71c3b41]" name="setTestResult" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:19 IST" finished-at="2021-10-29T21:51:19 IST">
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.get_004_get_Assetview@71c3b41]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:54 IST" finished-at="2021-10-29T22:31:54 IST">
           <params>
             <param index="0">
               <value>
@@ -411,7 +411,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- setTestResult -->
       </class> <!-- Asset_tracker_post.get_004_get_Assetview -->
       <class name="Asset_tracker_post.post_003_getassets">
-        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_003_getassets@5f16132a]" name="disp" is-config="true" duration-ms="0" started-at="2021-10-29T21:51:20 IST" finished-at="2021-10-29T21:51:20 IST">
+        <test-method status="PASS" signature="disp(java.lang.reflect.Method)[pri:0, instance:Asset_tracker_post.post_003_getassets@5f16132a]" name="disp" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:55 IST" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
@@ -422,7 +422,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disp -->
-        <test-method status="PASS" signature="getAssets(java.util.Map)[pri:0, instance:Asset_tracker_post.post_003_getassets@5f16132a]" name="getAssets" duration-ms="207" started-at="2021-10-29T21:51:20 IST" data-provider="getassets" finished-at="2021-10-29T21:51:20 IST">
+        <test-method status="PASS" signature="getAssets(java.util.Map)[pri:0, instance:Asset_tracker_post.post_003_getassets@5f16132a]" name="getAssets" duration-ms="205" started-at="2021-10-29T22:31:55 IST" data-provider="getassets" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
@@ -433,7 +433,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAssets -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_003_getassets@5f16132a]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T21:51:20 IST" finished-at="2021-10-29T21:51:20 IST">
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:Asset_tracker_post.post_003_getassets@5f16132a]" name="setTestResult" is-config="true" duration-ms="1" started-at="2021-10-29T22:31:55 IST" finished-at="2021-10-29T22:31:55 IST">
           <params>
             <param index="0">
               <value>
